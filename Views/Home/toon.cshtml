@@ -1,0 +1,12 @@
+@model cartoon
+
+<h1> Name: @Model.name</h1>
+<h1> Age: @Model.age</h1>
+<h1> show: @Model.show</h1>
+<h1> Old? @if(@Model.IsOldSkool){
+    <h3>yes</h3>
+}else{
+    <h3>no</h3>
+}
+
+</h1>
